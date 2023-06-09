@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 function HomePage() {
     const [phones, setPhones] = useState([])
@@ -29,6 +31,7 @@ function HomePage() {
 
   return (
     <div>
+    <Navbar/>
     <h1>The Phone Cave</h1>
         {loading ? (
             <div>Getting phones...</div>
@@ -49,7 +52,7 @@ function HomePage() {
           <p>Description: {onePhone.description}</p>
         </div>
       )}
-
+            <Footer/>
     </div>
   )
 }

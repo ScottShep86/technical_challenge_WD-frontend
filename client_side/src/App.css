@@ -43,13 +43,11 @@
  */
 
  body {
-  background-color: black;
-  color: azure;
+  margin: 0; 
+  background-color: white;
+  color: black;
  }
 
- h1 {
-
- }
  .navbar {
   padding: 10px;
   color:white;
@@ -58,11 +56,58 @@
   justify-content: space-between;
 }
 
+.link {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.page {
+  padding: 20px;
+  max-width: 100vw; 
+ }
+
+ h1 {
+  margin: 0;
+ }
+
+ ul {
+  list-style-type: none;
+  padding:0;
+  }
+
+  li {
+    padding: 3px;
+    color: blue;
+    cursor: pointer; 
+  }
+
+  h2 {
+    margin: 2px;
+  }
+
+  p {
+    margin: 2px;
+  }
+
+  .phoneContainer {
+    max-width: 305px;
+    margin: 10px;
+    padding: 5px; 
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px  black;
+  }
+
+  .phoneHeader {
+    text-align: center;
+  }
+
  .footer {
   margin: 0;
   text-align: center;
-  color:black;
-  background-color: white;
+  color:white ;
+  background-color: black;
   position: fixed;
     left: 0;
     bottom: 0;

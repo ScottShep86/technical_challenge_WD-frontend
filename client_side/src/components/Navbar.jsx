@@ -6,8 +6,8 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="navbarLeft">
-      <Link to="/" className='logo'>thePhoneCave</Link>
+      <div >
+      <Link className="link" to="/">thePhoneCave</Link>
       </div>
       <div className="navbarRight">   
       </div>
